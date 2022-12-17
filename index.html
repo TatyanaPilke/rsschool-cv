@@ -25,7 +25,7 @@
           <div class="container">
 
             <img class="about__photo" src="images/photo.jpg" alt="Photo Tetiana Pilkiv" width="600" height="600">
-            
+
             <h2 class="title">About me</h2>
             <p class="about__text">
               Hello, my name is Tatyana, I am a Front-End developer. I’ve been mentoring a beginner’s HTML/CSS course
@@ -81,11 +81,12 @@
           <section class="courses">
             <div class="container">
               <h2 class="title">Courses:</h2>
-              
+
               <ul class="courses__list">
                 <li class="courses__item text-style">2020 - HTML and CSS on the course “FROM 0 to 1”</li>
                 <li class="courses__item text-style">2021 - JS(ITGId, JS 2.0)</li>
-                <li class="courses__item text-style">2022 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li class="courses__item text-style">2022 - RS Schools Course «JavaScript/Front-end. Stage 0» (in
+                  progress)</li>
               </ul>
             </div>
           </section>
@@ -93,12 +94,38 @@
           <section class="languages">
             <div class="container">
               <h2 class="title">Languages:</h2>
-              
+
               <ul class="languages__list">
-                <li class="languages__item text-style">2020 - HTML and CSS on the course “FROM 0 to 1”</li>
-                <li class="languages__item text-style">2021 - JS(ITGId, JS 2.0)</li>
-                <li class="languages__item text-style">2022 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li class="languages__item text-style">Ukrainian - Native</li>
+                <li class="languages__item text-style">Russian - Upper-Intermediate</li>
+                <li class="languages__item text-style">English - Pre-Intermediate</li>
               </ul>
+            </div>
+          </section>
+
+          <section class="example">
+            <div class="container">
+              <h2 class="title">Code Example:</h2>
+
+              <pre>
+            <code>
+                <span style="color: blue;">function</span> <span class="func">findLongestWord</span>(text) {
+                        <span style="color: blue;">let</span> words = text.split(" ");
+                        <span style="color: blue;">let</span>  word = "";
+                        <span class="if">for</span> (<span style="color: blue;">let</span> item of words) {
+                                <span class="if">if</span> (word.length &lt; item.length) {
+                                    word = item;
+                                }
+                        }
+                        return (word);
+                }
+                <span style="color: blue;">const</span> <span class="if">longestWord</span> = <span class="func">findLongestWord</span>("Lorem ipsum dolor sit 
+                amet, consectetur adipiscing elit. Praesent rutrum, nec consectetur erat orci et libero. ");
+
+                <span class="func">console</span>.<span class="if">log</span>(longestWord);
+            </code>
+          </pre>
+
             </div>
           </section>
 
