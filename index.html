@@ -57,13 +57,31 @@
                   </a>
                 </li>
               </ul>
+
+              <ul class="socials-contacts">
+                <li class="socials-contacts__item">
+                  <a class="socials-contacts__link" href=""></a>
+                  <span class="sr-only">linkedin</span>
+                </li>
+                <li class="socials-contacts__item">
+                  <a class="socials-contacts__link" href=""></a>
+                  <span class="sr-only">facebook</span>
+                </li>
+                <li class="socials-contacts__item">
+                  <a class="socials-contacts__link" href=""></a>
+                  <span class="sr-only">telegram</span>
+                </li>
+              </ul>
+
+
+
             </address>
           </div>
         </section>
 
         <div class="inner">
 
-          <section class="skills">
+          <section class="skills section">
             <div class="container">
               <h2 class="title">Skills and Proficiency:</h2>
 
@@ -78,7 +96,7 @@
             </div>
           </section>
 
-          <section class="courses">
+          <section class="courses section">
             <div class="container">
               <h2 class="title">Courses:</h2>
 
@@ -91,7 +109,7 @@
             </div>
           </section>
 
-          <section class="languages">
+          <section class="languages section">
             <div class="container">
               <h2 class="title">Languages:</h2>
 
@@ -103,35 +121,43 @@
             </div>
           </section>
 
-          <section class="example">
+          <section class="example section">
             <div class="container">
               <h2 class="title">Code Example:</h2>
-
-              <pre>
-            <code>
-                <span style="color: blue;">function</span> <span class="func">findLongestWord</span>(text) {
-                        <span style="color: blue;">let</span> words = text.split(" ");
-                        <span style="color: blue;">let</span>  word = "";
-                        <span class="if">for</span> (<span style="color: blue;">let</span> item of words) {
-                                <span class="if">if</span> (word.length &lt; item.length) {
-                                    word = item;
-                                }
-                        }
-                        return (word);
-                }
-                <span style="color: blue;">const</span> <span class="if">longestWord</span> = <span class="func">findLongestWord</span>("Lorem ipsum dolor sit 
-                amet, consectetur adipiscing elit. Praesent rutrum, nec consectetur erat orci et libero. ");
-
-                <span class="func">console</span>.<span class="if">log</span>(longestWord);
-            </code>
-          </pre>
+<code>
+  <pre>
+    let a18 = {
+      "red": ['Akademmistechko', 'Nyvky', 'Universytet', 'Lisova'],
+      "blue": ['Minska', 'Obolon', 'Pochaina', 'Holosiivska'],
+      "green": ['Syrets', 'Zoloti Vorota', 'Klovska', 'Vidubichi']
+    };
+    function f18() {
+      let input = document.querySelector('.i-18').value;
+      let out = '';
+    
+      if (a18[input] !== undefined) {
+          for (let i = 0; i < a18[input].length; i++) {
+              out += a18[input][i] + ' ';
+          }
+      }
+      document.querySelector('.out-18').innerHTML = out;
+    }
+    document.querySelector('.b-18').onclick = f18;
+  </pre>
+</code>
 
             </div>
           </section>
-
         </div>
       </main>
     </div>
+    <footer class="footer">
+      <a href="">гитхаб</a>
+      <span>2022</span>
+      <a href="логотип курса">
+        <img src="img" alt="logo">
+      </a>
+    </footer>
   </div>
 </body>
 
