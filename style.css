@@ -205,6 +205,22 @@ body {
   transition: opacity 0.3, box-shadow 0.3s, text-decoration;
 }
 
+.contacts__link--place {
+  background-image: url('images/icon-location.svg');
+}
+
+.contacts__link--telegram {
+  background-image: url('images/telegram.svg');
+}
+
+.contacts__link--phone {
+  background-image: url('images/icon-call.svg');
+}
+
+.contacts__link--email {
+  background-image: url('images/icon-message.svg');
+}
+
 .contacts__link:focus {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
@@ -294,6 +310,18 @@ body {
   background-position: center;
   background-size: cover;
   transition: transform 0.4s;
+}
+
+.socials-contacts__link--linkedin {
+  background-image: url('images/linkedin.png');
+}
+
+.socials-contacts__link--facebook {
+  background-image: url('images/facebook.png');
+}
+
+.socials-contacts__link--telegram {
+  background-image: url('images/twitter.png');
 }
 
 .socials-contacts__link:hover {
